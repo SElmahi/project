@@ -9,23 +9,23 @@ import { ImportantDatesComponent } from './pages/important-dates/important-dates
 import { PublicationIndexComponent } from './pages/publication-index/publication-index.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { SubmitComponent } from './pages/submit/submit.component';
-
+import { AccountComponent } from './pages/account/account.component';
 const routes: Routes = [
-  { path: 'about' , component:AboutComponent },
-  { path: 'committees', component:CommitteesComponent},
-  { path: 'call-for-papers' , component:CallForPapersComponent},
-  { path:'important-dates' , component:ImportantDatesComponent},
-  { path: 'publication-index' , component:PublicationIndexComponent},
-  { path: 'register' , component:RegisterComponent},
-  { path: 'submit' , component:SubmitComponent},
-  { path: 'admin' , component:AdminComponent},
-  { path: 'admin-dashboard', component:AdminDasboardComponent},
-  { path: '' , component:AboutComponent },
-
+  { path: 'about', component: AboutComponent },
+  { path: 'committees', component: CommitteesComponent },
+  { path: 'call-for-papers', component: CallForPapersComponent },
+  { path: 'important-dates', component: ImportantDatesComponent },
+  { path: 'publication-index', component: PublicationIndexComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'submit', component: SubmitComponent },
+  { path: 'admin', component: AdminComponent },
+  { path: 'admin-dashboard', component: AdminDasboardComponent },
+  { path: '', component: AboutComponent },
+  { path: 'account', component: AccountComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -15,6 +15,7 @@ import { SubmitComponent } from './pages/submit/submit.component';
 
 import { AdminDasboardComponent } from './pages/admin-dasboard/admin-dasboard.component';
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
+import { AccountComponent } from './pages/account/account.component';
 
 
 
@@ -31,6 +32,7 @@ import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
     HeaderComponent,
     SubmitComponent,
     AdminDasboardComponent,
+    AccountComponent,
   ],
   imports: [
     BrowserModule,

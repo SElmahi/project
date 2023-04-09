@@ -1,47 +1,6 @@
-
-h1{
-    text-align: center;
-    color: #0A2647;
-    border-bottom: 3px  solid #4D4D4D;
-    border-style: double;
- }
-
-    .form-group {
-        margin-top: 2%;
-        margin-left: 10%;
-        color: #4D4D4D;
-        margin-bottom: 1rem;
-      }
-      
-      label {
-        font-weight: bold;
-      }
-      
-      input[type="text"],
-      input[type="email"],
-      input[type="tel"] {
-        font-size: 1rem;
-        line-height: 1.5;
-        color: #0A2647;
-        background-color: #f0e6e6;
-        background-clip: padding-box;
-        border: 1px solid #0A2647;
-        border-radius: 0.25rem;
-      }
-      
-      input[type="file"] {
-        
-        margin-top: 0.25rem;
-        
-
-      }
-      
-      button[type="submit"] {
-        border-radius: 0.3rem;
-        width: 5rem;
-        margin-top: 1rem;
-        margin-left: 19%;
-        background-color: #0A2647;
-        color:#4D4D4D; 
-        font-size: 1.3rem;
-      }
+h1 {
+  text-align: center;
+  color: #0a2647;
+  border-bottom: 3px solid #4d4d4d;
+  border-style: double;
+}
